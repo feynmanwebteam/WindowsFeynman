@@ -2,6 +2,7 @@
 
 /* Video Slideshow Template */
 
+if ( ! defined( 'ABSPATH') ) exit; // Exit if accessed directly
 
 add_action( 'beans_fixed_wrap[_header]_after_markup', 'beans_child_video_slideshow' );
 
@@ -18,14 +19,12 @@ function beans_child_video_slideshow()
 
             <div class="inner video-slide-inner">
                 <div class="f-developer-wrapper">
-                    <h1 class="developer-title">Trusted Developers,<br> ready to join your
+                    <h1 class="f-developer-title">Trusted Developers,<br> ready to join your
                     team.</h1>
 
-                <h2>Feynman Group is trusted by the area's leading brands, <br/> providing high-quality developers when
-                    you need them most since 2006.</h2>
                 <ul class="buttons video-buttons">
                     <li><a href="//player.vimeo.com/video/126542270?autoplay=1"
-                           class="watch js-watch slide-video-button"><span class="sprite"></span>Learn More</a></li>
+                           class="watch js-watch f-slide-video-button"><span class="sprite"></span>Learn More</a></li>
                 </ul>
                 </div><!-- end .f-developer-title -->
 
@@ -171,7 +170,8 @@ function beans_child_video_slideshow()
         <!-- start bottom wrapper -->
         <div class="bottom-wrapper">
 
-            <div class="parallaxbox" id="pb2">
+            <div class="parallaxbox" id="pb2"
+                 style="background-image: url('http://localhost:8080/beans_uikit/wp-content/uploads/2016/06/eugene-website-development-design-feynman-10.jpg');">
 
 
                 <!-- start parallax heading -->

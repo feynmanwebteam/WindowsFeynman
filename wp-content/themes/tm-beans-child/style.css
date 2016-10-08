@@ -150,11 +150,76 @@ h1 {
         margin-top: 0px;
 }
 
-.developer-title {
-	font-size: 52px; 
+.f-developer-title {
+	font-size: 72px;
+	line-height: 80px; 
 	color: white;
-	line-height: 62px;
+	text-transform:uppercase;
+	font-weight:bold;
 }
+
+.f-slide-video-button {
+	margin-top:80px !important;
+}
+
+.f-developer-wrapper .f-slide-video-button:hover {
+	background-color:white;
+	color:#163450;
+	border: 2px solid #163450 !important;
+	-webkit-transition: color 500ms ease-out 0.2s;
+   	-moz-transition: color 500ms ease-out 0.2s;
+   	-o-transition: color 500ms ease-out 0.2s;
+   	transition: color 500ms ease-out 0.2s;
+	-webkit-transition: background-color 500ms ease-out 0.2s;
+   	-moz-transition: background-color 500ms ease-out 0.2s;
+   	-o-transition: background-color 500ms ease-out 0.2s;
+   	transition: background-color 500ms ease-out 0.2s;
+}
+
+.page .contact-buttons:hover {
+	background-color:white;
+	color:black;
+	-webkit-transition: color 500ms ease-out 0.2s;
+   	-moz-transition: color 500ms ease-out 0.2s;
+   	-o-transition: color 500ms ease-out 0.2s;
+   	transition: color 500ms ease-out 0.2s;
+	-webkit-transition: background-color 500ms ease-out 0.2s;
+   	-moz-transition: background-color 500ms ease-out 0.2s;
+   	-o-transition: background-color 500ms ease-out 0.2s;
+   	transition: background-color 500ms ease-out 0.2s;
+}
+
+.page .contact-buttons, .f-slide-video-button  {
+	-webkit-transition: color 500ms ease-out 0.2s;
+   	-moz-transition: color 500ms ease-out 0.2s;
+   	-o-transition: color 500ms ease-out 0.2s;
+   	transition: color 500ms ease-out 0.2s;
+	-webkit-transition: background-color 500ms ease-out 0.2s;
+   	-moz-transition: background-color 500ms ease-out 0.2s;
+   	-o-transition: background-color 500ms ease-out 0.2s;
+   	transition: background-color 500ms ease-out 0.2s;
+	text-transform: uppercase;
+	font-family: 'Fira Sans', sans-serif;
+    	display: inline-block;
+   	color: white;
+	letter-spacing: 0.05em;
+    	font-size: 14px;
+   	padding: 13px 31px 13px 31px;
+   	font-style: normal;
+    	border-radius: 10em;
+  	text-align: center;
+    	vertical-align: middle;
+    	margin-top: 1px;
+    	margin-bottom: 1px;
+    	cursor: pointer;
+    	background-image: none;
+    	border: 2px solid;
+    	outline: none;
+    	white-space: pre-wrap;
+    	-webkit-text-stroke: 0px;
+}
+
+
 
 .testimonial-bottom {
 	background-color:#1B1D1F;
