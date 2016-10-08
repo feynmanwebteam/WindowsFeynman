@@ -2,13 +2,14 @@
 
 /* Template Name: Client Portfolio */ 
 
+if ( ! defined( 'ABSPATH') ) exit; // Exit if accessed directly
+
+
 get_header();
 
  ?>
 
-if ( ! defined( 'ABSPATH') ) exit; // Exit if accessed directly
-
-<div class="uk-container">
+<div class="fullwidth-container">
 <div class="uk-panel-box">
 <div class="portfolio-rows" data-uk-grid>
 

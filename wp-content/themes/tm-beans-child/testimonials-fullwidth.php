@@ -8,8 +8,7 @@ get_header();
 
  ?>
 
-
-<div class="uk-container">
+<div class="uk-container fullwidth-container">
 <div class="uk-panel-box">
 <div class="portfolio-rows" data-uk-grid>
 
