@@ -2,6 +2,8 @@
 
 /* Template Name: Testimonials  */ 
 
+if ( ! defined( 'ABSPATH') ) exit; // Exit if accessed directly
+
 get_header();
 
  ?>
